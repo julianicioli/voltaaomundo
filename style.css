@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(148, 148, 236);
+}
+
+h4 {
+    text-align: justify;
+    background-color: rgb(89, 187, 187);
+}
+
+h5{
+    text-align: center;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+.menu-lateral {
+    width: 250px;
+    background-color: #42509f;
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-lateral ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Efeito de hover */
+.menu-lateral ul li a:hover {
+    background-color: #453cc0;
+}
+
+/* Estilo para o conteúdo */
+.conteudo {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 40px;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section img {
+    width: 40%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5%;
+}
+
+#imagem{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .menu-lateral {
+        width: 200px;
+    }
+    .conteudo {
+        margin-left: 200px;
+    }
+}
